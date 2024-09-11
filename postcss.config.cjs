@@ -1,6 +1,5 @@
 module.exports = {
   plugins: {
-    'postcss-plugin': {},
     doiuse: {},
     'postcss-nested': {},
     'postcss-flexbugs-fixes': {},

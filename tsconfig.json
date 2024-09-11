@@ -6,7 +6,7 @@
     "types": ["vite/client"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "allowJs": false,
+    "allowJs": true,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
 
@@ -31,6 +31,7 @@
       "@components/*": ["./src/components/*"]
     }
   },
-  "include": ["src", "vite.config.ts"],
+  "include": ["src",
+    "eslint.config.mjs", "postcss.config.cjs"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
