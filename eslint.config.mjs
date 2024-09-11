@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { fixupConfigRules, fixupPluginRules } from '@eslint/compat'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import prettier from 'eslint-plugin-prettier'
